@@ -9,4 +9,3 @@ export default {
   name: "MainApp"
 };
 </script>
-
