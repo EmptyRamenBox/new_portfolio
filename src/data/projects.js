@@ -1,0 +1,45 @@
+import basictodo from '../assets/basictodo.png';
+import vuetodo from '../assets/vuetodo.png';
+import todot from '../assets/todot.png';
+import todob from '../assets/todob.png';
+import inventory from '../assets/inventory.png';
+
+const projects = [
+  {
+    name: "Basic Todo App",
+    description: "A Vanilla HTML, JS, and CSS Todo Application",
+    image: basictodo,
+    hashtags: ["todo", "html5", "css", "javascript"],
+    url: "https://basictodo.collegeandcoffee.site/"
+  },
+  {
+    name: "Todo App with Bootstrap",
+    description: "A Todo Applicaition in Vanilla JavaScript and Bootstrap",
+    image: todob,
+    hashtags: ["todo", "html5", "bootstrap", "javascript"],
+    url: "https://todob.collegeandcoffee.site/"
+  },
+  {
+    name: "Todo App with Tailwind'",
+    description: "A Todo Applicaition in Vanilla JavaScript and TailwindCSS",
+    image: todot,
+    hashtags: ["todo", "html5", "tailwind", "javascript"],
+    url: "https://todot.collegeandcoffee.site/"
+  },
+  {
+    name: "Basic Inventory App",
+    description: "A Basic Inventory App in Vue.js in Vue.js",
+    image: inventory,
+    hashtags: ["todo", "vuejs", "tailwind", "javascript"],
+    url: "https://inventory.collegeandcoffee.site/"
+  },
+  {
+    name: "Todo App with Tailwind and Vue.js",
+    description: "A Todo Applicaition in Vue.js and TailwindCS",
+    image: vuetodo,
+    hashtags: ["todo", "vuejs", "tailwind", "javascript"],
+    url: "https://vuetodo.collegeandcoffee.site/"
+  }
+]
+
+export default projects
