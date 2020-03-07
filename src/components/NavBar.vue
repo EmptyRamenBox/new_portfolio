@@ -1,5 +1,6 @@
 <template>
-  <nav class="nav w-screen z-20 shadow-2xl bg-teal-600 text-blue-100">
+  <nav class="nav w-screen z-20 text-blue-100" 
+    :class= "ishome ?  '' : 'shadow-2xl bg-teal-600'  ">
     <div class="left">
       <span class="font text-4xl">My
         <span class="font-semibold">Portfolio</span>
@@ -7,14 +8,25 @@
     </div>
     <div class="right">
       <router-link class="link" to="/">Home</router-link>
-      <router-link class="link" to="/">Portfolio</router-link>
+      <router-link class="link" to="/portfolio">Portfolio</router-link>
     </div>
   </nav>
 </template>
 
 <script>
 export default {
-  name: "NavBar"
+  name: "NavBar",
+  props: {
+    ishome: {
+      type: Boolean,
+      default: true
+    }
+  }
+  // data() {
+  //   return {
+  //     isNotHome: (this.$route.path != '/')
+  //   };
+  // }
 };
 </script>
 
@@ -24,9 +36,9 @@ export default {
 
 }
 .link {
-    @apply px-2 text-lg font-semibold;
-    &:hover {
-        @apply  transition duration-500 ease-in-out bg-teal-800;
-    }
+  @apply px-2 text-lg font-semibold;
+  &:hover {
+      @apply  transition duration-500 ease-in-out bg-teal-800;
+  }
 }
 </style>

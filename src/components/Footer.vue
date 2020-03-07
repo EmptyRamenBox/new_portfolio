@@ -5,6 +5,7 @@
       <a class="github" href="https://github.com/EmptyRamenBox" target="_blank">
         <GithubCircle />
       </a>
+
     </div>
   </div>
 </template>
