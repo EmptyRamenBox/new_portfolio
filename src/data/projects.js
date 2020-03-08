@@ -3,6 +3,7 @@ import vuetodo from '../assets/vuetodo.png';
 import todot from '../assets/todot.png';
 import todob from '../assets/todob.png';
 import inventory from '../assets/inventory.png';
+import mynotes from '../assets/mynotes.png';
 
 const projects = [
   {
@@ -39,7 +40,14 @@ const projects = [
     image: vuetodo,
     hashtags: ["todo", "vuejs", "tailwind", "javascript"],
     url: "https://vuetodo.collegeandcoffee.site/"
+  },
+  {
+    name: "Look at my Notes",
+    description: "A Simple Notes Application in Vuex and TailwindCS",
+    image: mynotes,
+    hashtags: ["todo", "vuejs", "tailwind", "javascript"],
+    url: "https://mynotes.collegeandcoffee.site/"
   }
 ]
 
-export default projects
+export default projects;

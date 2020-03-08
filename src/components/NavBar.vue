@@ -38,7 +38,7 @@ export default {
 .link {
   @apply px-2 text-lg font-semibold;
   &:hover {
-      @apply  transition duration-500 ease-in-out bg-teal-800;
+      @apply  transition duration-500 ease-in-out bg-indigo-900;
   }
 }
 </style>
