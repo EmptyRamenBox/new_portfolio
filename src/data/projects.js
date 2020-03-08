@@ -42,8 +42,8 @@ const projects = [
     url: "https://vuetodo.collegeandcoffee.site/"
   },
   {
-    name: "Look at my Notes",
-    description: "A Simple Notes Application in Vuex and TailwindCS",
+    name: "Internetworking Notes",
+    description: "A Simple Notes Application in Vuex and TailwindCS - Contains notes for CCNA",
     image: mynotes,
     hashtags: ["todo", "vuejs", "tailwind", "javascript"],
     url: "https://mynotes.collegeandcoffee.site/"

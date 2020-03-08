@@ -32,8 +32,7 @@ export default {
 
 <style lang="scss" scoped>
 .nav {
-    @apply transition duration-500 ease-in-out h-24 fixed px-12 flex justify-between items-center;
-
+  @apply transition duration-500 ease-in-out h-24 fixed px-12 flex justify-between items-center;
 }
 .link {
   @apply px-2 text-lg font-semibold;
