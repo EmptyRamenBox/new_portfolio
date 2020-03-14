@@ -4,6 +4,7 @@ import todot from '../assets/todot.png';
 import todob from '../assets/todob.png';
 import inventory from '../assets/inventory.png';
 import mynotes from '../assets/mynotes.png';
+import thelogin from '../assets/thelogin.png';
 
 const projects = [
   {
@@ -43,10 +44,17 @@ const projects = [
   },
   {
     name: "Internetworking Notes",
-    description: "A Simple Notes Application in Vuex and TailwindCS - Contains notes for CCNA",
+    description: "A Simple Notes Application in Vuex and TailwindCSS - Contains notes for CCNA",
     image: mynotes,
     hashtags: ["todo", "vuejs", "tailwind", "javascript"],
     url: "https://mynotes.collegeandcoffee.site/"
+  },
+  {
+    name: "Login Page",
+    description: "A Simple Notes Application in Vuex and TailwindCSS - Contains notes for CCNA",
+    image: thelogin,
+    hashtags: ["todo", "vuejs", "tailwind", "javascript"],
+    url: "https://thelogin.collegeandcoffee.site/"
   }
 ]
 
