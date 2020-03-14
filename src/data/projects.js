@@ -53,7 +53,7 @@ const projects = [
     name: "Login Page",
     description: "A Vue.js Application with Vuex, implementing a Login with Firebase in Email/Password and Google",
     image: thelogin,
-    hashtags: ["todo", "vuejs", "tailwind", "javascript"],
+    hashtags: ["firebase", "auth", "vuejs", "vuex", "vue-router", "tailwind", "javascript"],
     url: "https://thelogin.collegeandcoffee.site/"
   }
 ]
