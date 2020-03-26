@@ -1,10 +1,11 @@
-import basictodo from '../assets/basictodo.png';
-import vuetodo from '../assets/vuetodo.png';
-import todot from '../assets/todot.png';
-import todob from '../assets/todob.png';
-import inventory from '../assets/inventory.png';
-import mynotes from '../assets/mynotes.png';
-import thelogin from '../assets/thelogin.png';
+import basictodo from "../assets/basictodo.png";
+import vuetodo from "../assets/vuetodo.png";
+import todot from "../assets/todot.png";
+import todob from "../assets/todob.png";
+import inventory from "../assets/inventory.png";
+import mynotes from "../assets/mynotes.png";
+import thelogin from "../assets/thelogin.png";
+import hero from "../assets/hero.png";
 
 const projects = [
   {
@@ -44,18 +45,44 @@ const projects = [
   },
   {
     name: "Internetworking Notes",
-    description: "A Simple Notes Application in Vuex and TailwindCSS - Contains notes for CCNA",
+    description:
+      "A Simple Notes Application in Vuex and TailwindCSS - Contains notes for CCNA",
     image: mynotes,
     hashtags: ["todo", "vuejs", "tailwind", "javascript"],
     url: "https://mynotes.collegeandcoffee.site/"
   },
   {
     name: "Login Page",
-    description: "A Vue.js Application with Vuex, implementing a Login with Firebase in Email/Password and Google",
+    description:
+      "A Vue.js Application with Vuex, implementing a Login with Firebase in Email/Password and Google",
     image: thelogin,
-    hashtags: ["firebase", "auth", "vuejs", "vuex", "vue-router", "tailwind", "javascript"],
+    hashtags: [
+      "firebase",
+      "auth",
+      "vuejs",
+      "vuex",
+      "vue-router",
+      "tailwind",
+      "javascript"
+    ],
     url: "https://thelogin.collegeandcoffee.site/"
+  },
+  {
+    name: "SuperheroFinder",
+    description:
+      "A Vuex Application with TailwindCSS, implementing the SuperHero API.",
+    image: hero,
+    hashtags: [
+      "SuperHero API",
+      "API",
+      "vuejs",
+      "vuex",
+      "vue-router",
+      "tailwind",
+      "javascript"
+    ],
+    url: "https://hero.collegeandcoffee.site/"
   }
-]
+];
 
 export default projects;
