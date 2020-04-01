@@ -85,7 +85,7 @@ const projects = [
     url: "https://hero.collegeandcoffee.site/"
   },
   {
-    name: "MoviesDatabase",
+    name: "Movies Database",
     description:
       "A Vuex Application using Vuetify, and implementing The Movie Database API.",
     image: movies,
