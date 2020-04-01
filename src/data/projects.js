@@ -6,6 +6,7 @@ import inventory from "../assets/inventory.png";
 import mynotes from "../assets/mynotes.png";
 import thelogin from "../assets/thelogin.png";
 import hero from "../assets/hero.png";
+import movies from "../assets/movies.png";
 
 const projects = [
   {
@@ -82,6 +83,22 @@ const projects = [
       "javascript"
     ],
     url: "https://hero.collegeandcoffee.site/"
+  },
+  {
+    name: "MoviesDatabase",
+    description:
+      "A Vuex Application using Vuetify, and implementing The Movie Database API.",
+    image: movies,
+    hashtags: [
+      "The Movie Database API",
+      "API",
+      "vuejs",
+      "vuex",
+      "vue-router",
+      "vuetify",
+      "javascript"
+    ],
+    url: "https://movies.collegeandcoffee.site/"
   }
 ];
 
