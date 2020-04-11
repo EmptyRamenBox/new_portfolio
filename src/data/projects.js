@@ -7,6 +7,7 @@ import mynotes from "../assets/mynotes.png";
 import thelogin from "../assets/thelogin.png";
 import hero from "../assets/hero.png";
 import movies from "../assets/movies.png";
+import blog from "../assets/blog.png";
 
 const projects = [
   {
@@ -99,6 +100,23 @@ const projects = [
       "javascript"
     ],
     url: "https://movies.collegeandcoffee.site/"
+  },
+  {
+    name: "MyBlog",
+    description:
+      "A Vuex Application using Vuetify, running with a custom REST API.",
+    image: blog,
+    hashtags: [
+      "Custom API",
+      "REST API",
+      "API",
+      "vuejs",
+      "vuex",
+      "vue-router",
+      "vuetify",
+      "javascript"
+    ],
+    url: "https://blog.collegeandcoffee.site/"
   }
 ];
 
