@@ -8,42 +8,77 @@ import thelogin from "../assets/thelogin.png";
 import hero from "../assets/hero.png";
 import movies from "../assets/movies.png";
 import blog from "../assets/blog.png";
+import games from "../assets/games.png";
+import chat from "../assets/chat.png";
 
 const projects = [
+  {
+    name: "Video Games DB",
+    description:
+      "A College Project using Vuex and Vuetify, and using the RAWG API.",
+    image: games,
+    hashtags: [
+      "Custom API",
+      "RAWG API",
+      "API",
+      "vuejs",
+      "vuex",
+      "vue-router",
+      "vuetify",
+      "javascript",
+    ],
+    url: "https://games.collegeandcoffee.site/",
+  },
+  {
+    name: "theChat",
+    description:
+      "An applicaiton using Vuetify; Vuex in conjuction with Firebase ",
+    image: chat,
+    hashtags: [
+      "Firebase",
+      "Firestore",
+      "vuejs",
+      "vuex",
+      "vue-router",
+      "vuetify",
+      "javascript",
+    ],
+    url: "https://chat.collegeandcoffee.site/",
+  },
   {
     name: "Basic Todo App",
     description: "A Vanilla HTML, JS, and CSS Todo Application",
     image: basictodo,
     hashtags: ["todo", "html5", "css", "javascript"],
-    url: "https://basictodo.collegeandcoffee.site/"
+    url: "https://basictodo.collegeandcoffee.site/",
   },
   {
     name: "Todo App with Bootstrap",
     description: "A Todo Applicaition in Vanilla JavaScript and Bootstrap",
     image: todob,
     hashtags: ["todo", "html5", "bootstrap", "javascript"],
-    url: "https://todob.collegeandcoffee.site/"
+    url: "https://todob.collegeandcoffee.site/",
   },
   {
     name: "Todo App with Tailwind'",
     description: "A Todo Applicaition in Vanilla JavaScript and TailwindCSS",
     image: todot,
     hashtags: ["todo", "html5", "tailwind", "javascript"],
-    url: "https://todot.collegeandcoffee.site/"
+    url: "https://todot.collegeandcoffee.site/",
   },
   {
     name: "Basic Inventory App",
     description: "A Basic Inventory App in Vue.js in Vue.js",
     image: inventory,
     hashtags: ["todo", "vuejs", "tailwind", "javascript"],
-    url: "https://inventory.collegeandcoffee.site/"
+    url: "https://inventory.collegeandcoffee.site/",
   },
   {
     name: "Todo App with Tailwind and Vue.js",
     description: "A Todo Applicaition in Vue.js and TailwindCS",
     image: vuetodo,
     hashtags: ["todo", "vuejs", "tailwind", "javascript"],
-    url: "https://vuetodo.collegeandcoffee.site/"
+    url: "https://vuetodo.collegeandcoffee.site/",
   },
   {
     name: "Internetworking Notes",
@@ -51,7 +86,7 @@ const projects = [
       "A Simple Notes Application in Vuex and TailwindCSS - Contains notes for CCNA",
     image: mynotes,
     hashtags: ["todo", "vuejs", "tailwind", "javascript"],
-    url: "https://mynotes.collegeandcoffee.site/"
+    url: "https://mynotes.collegeandcoffee.site/",
   },
   {
     name: "Login Page",
@@ -65,9 +100,9 @@ const projects = [
       "vuex",
       "vue-router",
       "tailwind",
-      "javascript"
+      "javascript",
     ],
-    url: "https://thelogin.collegeandcoffee.site/"
+    url: "https://thelogin.collegeandcoffee.site/",
   },
   {
     name: "SuperheroFinder",
@@ -81,9 +116,9 @@ const projects = [
       "vuex",
       "vue-router",
       "tailwind",
-      "javascript"
+      "javascript",
     ],
-    url: "https://hero.collegeandcoffee.site/"
+    url: "https://hero.collegeandcoffee.site/",
   },
   {
     name: "Movies Database",
@@ -97,9 +132,9 @@ const projects = [
       "vuex",
       "vue-router",
       "vuetify",
-      "javascript"
+      "javascript",
     ],
-    url: "https://movies.collegeandcoffee.site/"
+    url: "https://movies.collegeandcoffee.site/",
   },
   {
     name: "MyBlog",
@@ -114,10 +149,10 @@ const projects = [
       "vuex",
       "vue-router",
       "vuetify",
-      "javascript"
+      "javascript",
     ],
-    url: "https://blog.collegeandcoffee.site/"
-  }
+    url: "https://blog.collegeandcoffee.site/",
+  },
 ];
 
 export default projects;
