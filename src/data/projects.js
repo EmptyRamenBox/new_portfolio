@@ -79,6 +79,22 @@ const projects = [
     url: "https://blog.collegeandcoffee.site/",
   },
   {
+    name: "SuperheroFinder",
+    description:
+      "A Vuex Application with TailwindCSS, implementing the SuperHero API.",
+    image: hero,
+    hashtags: [
+      "SuperHero API",
+      "API",
+      "vuejs",
+      "vuex",
+      "vue-router",
+      "tailwind",
+      "javascript",
+    ],
+    url: "https://hero.collegeandcoffee.site/",
+  },
+  {
     name: "Basic Todo App",
     description: "A Vanilla HTML, JS, and CSS Todo Application",
     image: basictodo,
@@ -136,22 +152,6 @@ const projects = [
       "javascript",
     ],
     url: "https://thelogin.collegeandcoffee.site/",
-  },
-  {
-    name: "SuperheroFinder",
-    description:
-      "A Vuex Application with TailwindCSS, implementing the SuperHero API.",
-    image: hero,
-    hashtags: [
-      "SuperHero API",
-      "API",
-      "vuejs",
-      "vuex",
-      "vue-router",
-      "tailwind",
-      "javascript",
-    ],
-    url: "https://hero.collegeandcoffee.site/",
   },
 ];
 
