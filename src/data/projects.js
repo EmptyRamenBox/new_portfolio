@@ -46,6 +46,39 @@ const projects = [
     url: "https://chat.collegeandcoffee.site/",
   },
   {
+    name: "Movies Database",
+    description:
+      "A Vuex Application using Vuetify, and implementing The Movie Database API.",
+    image: movies,
+    hashtags: [
+      "The Movie Database API",
+      "API",
+      "vuejs",
+      "vuex",
+      "vue-router",
+      "vuetify",
+      "javascript",
+    ],
+    url: "https://movies.collegeandcoffee.site/",
+  },
+  {
+    name: "MyBlog",
+    description:
+      "A Vuex Application using Vuetify, running with a custom REST API.",
+    image: blog,
+    hashtags: [
+      "Custom API",
+      "REST API",
+      "API",
+      "vuejs",
+      "vuex",
+      "vue-router",
+      "vuetify",
+      "javascript",
+    ],
+    url: "https://blog.collegeandcoffee.site/",
+  },
+  {
     name: "Basic Todo App",
     description: "A Vanilla HTML, JS, and CSS Todo Application",
     image: basictodo,
@@ -119,39 +152,6 @@ const projects = [
       "javascript",
     ],
     url: "https://hero.collegeandcoffee.site/",
-  },
-  {
-    name: "Movies Database",
-    description:
-      "A Vuex Application using Vuetify, and implementing The Movie Database API.",
-    image: movies,
-    hashtags: [
-      "The Movie Database API",
-      "API",
-      "vuejs",
-      "vuex",
-      "vue-router",
-      "vuetify",
-      "javascript",
-    ],
-    url: "https://movies.collegeandcoffee.site/",
-  },
-  {
-    name: "MyBlog",
-    description:
-      "A Vuex Application using Vuetify, running with a custom REST API.",
-    image: blog,
-    hashtags: [
-      "Custom API",
-      "REST API",
-      "API",
-      "vuejs",
-      "vuex",
-      "vue-router",
-      "vuetify",
-      "javascript",
-    ],
-    url: "https://blog.collegeandcoffee.site/",
   },
 ];
 
