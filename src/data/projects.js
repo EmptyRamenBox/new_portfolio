@@ -10,10 +10,11 @@ import movies from "../assets/movies.png";
 import blog from "../assets/blog.png";
 import games from "../assets/games.png";
 import chat from "../assets/chat.png";
+import mart from "../assets/mart.png";
 
 const projects = [
   {
-    name: "Video Games DB",
+    name: "ArtMart",
     description:
       "A College Project using Vuex and Vuetify, and using the RAWG API.",
     image: games,
@@ -27,7 +28,24 @@ const projects = [
       "vuetify",
       "javascript",
     ],
-    url: "https://games.collegeandcoffee.site/",
+    url: "https://mart.collegeandcoffee.site/",
+  },
+  {
+    name: "ArtMart",
+    description:
+      "A Psuedo-Shopping Cart Application using Vue.js, vuex, firebase, and firestore",
+    image: thelogin,
+    hashtags: [
+      "firebase",
+      "firstore",
+      "auth",
+      "vuejs",
+      "vuex",
+      "vue-router",
+      "firestore",
+      "javascript",
+    ],
+    url: "https://thelogin.collegeandcoffee.site/",
   },
   {
     name: "theChat",
@@ -35,8 +53,8 @@ const projects = [
       "An applicaiton using Vuetify; Vuex in conjuction with Firebase ",
     image: chat,
     hashtags: [
-      "Firebase",
-      "Firestore",
+      "firebase",
+      "firestore",
       "vuejs",
       "vuex",
       "vue-router",
