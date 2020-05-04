@@ -14,7 +14,7 @@ import mart from "../assets/mart.png";
 
 const projects = [
   {
-    name: "ArtMart",
+    name: "Video Games DB",
     description:
       "A College Project using Vuex and Vuetify, and using the RAWG API.",
     image: games,
@@ -28,13 +28,13 @@ const projects = [
       "vuetify",
       "javascript",
     ],
-    url: "https://mart.collegeandcoffee.site/",
+    url: "https://games.collegeandcoffee.site/",
   },
   {
     name: "ArtMart",
     description:
       "A Psuedo-Shopping Cart Application using Vue.js, vuex, firebase, and firestore",
-    image: thelogin,
+    image: mart,
     hashtags: [
       "firebase",
       "firstore",
@@ -45,7 +45,7 @@ const projects = [
       "firestore",
       "javascript",
     ],
-    url: "https://thelogin.collegeandcoffee.site/",
+    url: "https://mart.collegeandcoffee.site/",
   },
   {
     name: "theChat",
